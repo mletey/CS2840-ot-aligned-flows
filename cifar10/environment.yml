@@ -1,0 +1,24 @@
+name: cifar_diffusion
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - tqdm
+  - absl-py
+  - wandb
+  - pillow
+  - pip:
+    - clean-fid
+    - torchdiffeq     
+    - torchdyn          
+    - torchcfm
